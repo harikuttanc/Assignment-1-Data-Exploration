@@ -1,1 +1,12 @@
-# Assignment-1-Data-Exploration
+Solution for assignment 1 Data Exploration
+Found sum using =sum(D2:D35)
+Found no of product in dataset using =counta(B2:B35)
+Calculated average price of product using =average(D2:D35)
+Found minimum price among all product using =min(D2:D35)
+Found maximum price among all product using =max(D2:D35)
+Categorized products using =if(D2:D35>=500,"High Price","Standard Price")
+Calculated total price of electronics product category using =sumif(F2:F35,"Electronics",D2:D35)
+Found count of products using =countif(D2:D35,"<100")
+Created new column named day with the first two characters of each product id using =left(A2:A35,2)
+Created new column named country code by extracting last two characters from the product id using =right(A2:A35,2)
+Created new column named month by extracting 4th to 6th characters from product id using =mid(A2:A35,4,3)
